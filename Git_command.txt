@@ -60,5 +60,10 @@ $ git push -u origin master
 $ git push
 	It will push the changes to remote repository 
 
+<<<<<<< HEAD
 $ git clone https://github.com/fawad4bros/Git.git
 	It will clone the remote repository with the folder 
+=======
+$ git pull
+	It will pull all the changes other made on the remote repository 
+>>>>>>> 8265d4e7c45e69782b19c43c46a8c72451182f5f
