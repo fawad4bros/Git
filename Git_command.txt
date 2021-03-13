@@ -24,3 +24,15 @@ $ git status
 
 $ git rm --cached Git_command.txt
 	Remove file from the stagging area
+
+$ git commit
+	firts it will open WAMP editor
+	Press 'i' on the keyboard to go into insert mood
+	Give a comment 'Any comment about changes'
+	To get out from insert mood press 'ESC' on the keyborad
+	then type ':wq'
+	Press 'Enter' on keyborad
+
+		OR
+
+$ git commit -m 'Any comment about changes in the file'
