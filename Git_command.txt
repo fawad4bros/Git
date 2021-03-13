@@ -36,3 +36,12 @@ $ git commit
 		OR
 
 $ git commit -m 'Any comment about changes in the file'
+
+$ git branch fawad4bros
+	It will create a branch
+
+$ git checkout fawad4bros
+	Switched to branch fawad4bros
+
+$ git merge fawad4bros
+	This command will be run in master branch to merge the fawad4bros branch with the master branch
