@@ -45,3 +45,14 @@ $ git checkout fawad4bros
 
 $ git merge fawad4bros
 	This command will be run in master branch to merge the fawad4bros branch with the master branch
+
+******************************************Remote Repository******************************************
+
+$ git remote
+	Checks the remote repository list
+
+$ git remote add origin https://github.com/fawad4bros/Git.git
+	Adding a remote repository
+
+$ git push -u origin main
+	It will push all the file to remote repository
