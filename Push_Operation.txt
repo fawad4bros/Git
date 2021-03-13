@@ -1,0 +1,13 @@
+	$ git log
+
+commit d1e19d316224cddc437e3ed34ec3c931ad803958
+Author: Jerry Mouse <jerry@tutorialspoint.com>
+Date: Wed Sep 11 08:05:26 2013 +0530
+
+Changed return type of my_strlen to size_t
+
+Before push operation, he wants to review his changes, so he uses the git show command to review his changes.
+
+	$ git show d1e19d316224cddc437e3ed34ec3c931ad803958
+
+$ git push origin master

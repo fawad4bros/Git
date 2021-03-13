@@ -1,0 +1,9 @@
+$ mkdir jerry_repo
+
+$ cd jerry_repo/
+
+$ git clone Fawad4bros@DESKTOP-4MCNLTQ:projectname.git
+
+$ cd projectname/
+
+$ ls
