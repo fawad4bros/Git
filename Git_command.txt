@@ -1,0 +1,26 @@
+$ git --version
+	Check git version
+
+$ touch Get_commandl.txt
+	Creates a file in the folder
+
+$ git init
+	initialized empty Git repository, we can use git commands
+
+$ git config -- global user.name ''
+$ git config -- global user.email ''
+
+$ git add Git_command.txt
+	Add file to the Stagging area
+
+$ git add *.txt
+	Will add all the .txt extionsion files in the stagging area
+
+$ git add .
+	Will add all the files
+
+$ git status
+	check stagging area
+
+$ git rm --cached Git_command.txt
+	Remove file from the stagging area
