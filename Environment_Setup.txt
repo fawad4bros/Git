@@ -1,0 +1,44 @@
+! Installation of Git Client !
+If you are using Debian base GNU/Linux distribution, then apt-get command will do the needful.
+	$ sudo apt-get install git-core
+
+! Setting username !
+This information is used by Git for each commit.
+
+	$ git config --global user.name "fawad4bros"
+
+! Setting email id !
+This information is used by Git for each commit.
+
+	$ git config --global user.email "fawad4bros@gmail.com"
+
+! Avoid merge commits for pulling !
+You pull the latest changes from a remote repository, and if these changes are divergent, 
+then by default Git creates merge commits. We can avoid this via following settings
+	
+	$ git config --global branch.autosetuprebase always
+
+! Color highlighting !
+The following commands enable color highlighting for Git in the console.
+
+	$ git config --global color.ui true
+	$ git config --global color.status auto
+	$ git config --global color.branch auto
+
+! Setting default editor !
+By default, Git uses the system default editor, which is taken from the VISUAL or EDITOR environment variable.
+We can configure a different one by using git config.
+
+	$ git config --global core.editor vim
+
+! Setting default merge tool !
+Git does not provide a default merge tool for integrating conflicting changes into your working tree. 
+We can set default merge tool by enabling following settings.
+
+	$ git config --global merge.tool vimdiff
+
+! Listing Git settings !
+To verify your Git settings of the local repository, use git config –list command as given below.
+
+	$ git config --list
+	Press q to exit
