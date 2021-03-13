@@ -59,3 +59,6 @@ $ git push -u origin master
 
 $ git push
 	It will push the changes to remote repository 
+
+$ git pull
+	It will pull all the changes other made on the remote repository 
